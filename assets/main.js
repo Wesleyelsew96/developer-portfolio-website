@@ -1,141 +1,202 @@
 const profile = {
   name: "Wesley Wright",
-  role: "Full-Stack Software Developer",
-  location: "Tulsa, OK · Remote friendly",
-  email: "hello@wesleywright.dev",
-  bio: "Full-stack engineer focused on product-first delivery, reliable systems, and polished interfaces.",
+  role: "Software Engineer | Machine Learning + Full-Stack",
+  location: "Lakewood, CO - Remote friendly",
+  email: "wesleywright.lew@gmail.com",
+  phone: "(980) 395-3100",
+  bio: "Versatile engineer with a foundation in machine learning, full-stack development, and client-facing delivery.",
 };
 
 const education = [
-  { school: "Oklahoma State University", program: "B.S. in Computer Science", note: "Emphasis on software engineering and data structures." },
-  { school: "Continuous learning", program: "Design systems, advanced TypeScript, cloud native", note: "Workshops, courses, and hands-on builds." },
+  {
+    school: "University of North Carolina at Charlotte",
+    program: "B.S. Computer Science (AI/Robotics/Gaming); Minor in Mathematics",
+    note: "Jan 2019 - May 2024 | Charlotte, NC",
+  },
 ];
 
 const skills = [
   {
-    name: "Frontend",
-    summary: "Interfaces that feel fast and intentional.",
-    items: ["React", "Next.js", "Vite", "TypeScript", "Redux Toolkit", "Tailwind CSS", "Framer Motion", "Storybook"],
+    name: "Languages & Web",
+    summary: "Backend, scripting, and UI foundations.",
+    items: ["Java", "Python", "JavaScript", "C++", "HTML/CSS"],
   },
   {
-    name: "Backend",
-    summary: "APIs, auth, and data layers with sensible patterns.",
-    items: ["Node.js", "Express", "GraphQL", "REST", "PostgreSQL", "Prisma", "MongoDB", "Redis", "WebSockets"],
+    name: "Machine Learning",
+    summary: "Modeling, experimentation, and analysis.",
+    items: ["PyTorch", "TensorFlow", "scikit-learn", "spaCy", "Hugging Face Transformers", "NumPy", "Pandas"],
   },
   {
-    name: "DevOps",
-    summary: "Pipelines, observability, and deploys you can trust.",
-    items: ["Docker", "GitHub Actions", "CI/CD", "Render", "Vercel", "AWS (Lambda, S3, RDS)", "Azure DevOps", "Monitoring (Grafana/New Relic)"],
+    name: "DevOps & Databases",
+    summary: "Pipelines and data layers that keep projects shipping.",
+    items: ["Jenkins", "Docker", "PostgreSQL", "MySQL", "Heroku", "GitHub", "JUnit"],
   },
   {
-    name: "Quality",
-    summary: "Confident releases through testing and automation.",
-    items: ["Jest", "Testing Library", "Playwright", "Contract testing", "Feature flags", "Feature preview environments"],
+    name: "Tools & Collaboration",
+    summary: "Documentation, tracking, and IDEs I use daily.",
+    items: ["Confluence", "Jira", "Asana", "Eclipse", "Jupyter Notebooks", "IntelliJ IDEA", "Visual Studio", "NetBeans"],
   },
 ];
 
 const workHistory = [
   {
-    company: "Atlas Logic",
-    role: "Senior Full-Stack Developer",
-    period: "2022 — Present",
-    location: "Remote",
+    company: "Outlier AI",
+    role: "Data Annotation Math Specialist",
+    period: "Nov 2024 - Present",
+    location: "Lakewood, CO",
     bullets: [
-      "Led delivery of a multi-tenant analytics platform with real-time dashboards and role-based access control.",
-      "Coordinated product discovery with design to tighten feedback loops and ship weekly increments.",
-      "Introduced feature flagging and automated smoke tests, cutting regression reports by 35%.",
+      "Design reasoning tasks for multi-modal AI systems, including image-based challenges and Olympiad-level math problems.",
+      "Evaluate and correct AI responses with structured feedback to refine model understanding.",
+      "Promoted to Senior Reviewer and Super-Attempter to uphold quality across submissions.",
     ],
   },
   {
-    company: "Boundary Labs",
-    role: "Full-Stack Engineer",
-    period: "2019 — 2022",
-    location: "Hybrid",
+    company: "Lew Consulting",
+    role: "Founder & Software Engineer",
+    period: "Jul 2023 - May 2024",
+    location: "Lakewood, CO",
     bullets: [
-      "Built customer onboarding flows, billing integrations, and admin tooling across React and Node.",
-      "Implemented CI/CD pipelines and infrastructure-as-code to reduce deployment time from hours to minutes.",
-      "Collaborated with customer success to prioritize fixes and launch a searchable support hub.",
+      "Delivered consulting updates for Ometrics appointment scheduling software (Java) and technician interfaces (JavaScript) deployed on Heroku.",
+      "Integrated TutorCruncher APIs to optimize enrollments and scheduling for a tutoring company.",
+      "Developed custom webpages for client websites using WordPress and React.",
     ],
   },
   {
-    company: "Freelance",
-    role: "Product-focused Developer",
-    period: "Ongoing",
-    location: "Remote",
+    company: "Ometrics",
+    role: "Software Developer",
+    period: "Mar 2023 - Jul 2023",
+    location: "Evergreen, CO (Remote)",
     bullets: [
-      "Delivered MVPs for founders: landing pages, web apps, and integrations to validate markets quickly.",
-      "Set up observability and monitoring for small teams to track adoption and spot issues early.",
+      "Led updates for appointment scheduling software and technician interfaces across backend (Java), frontend (JavaScript/HTML/CSS), and PostgreSQL databases.",
+      "Maintained and enhanced internal and client-facing websites on WordPress and React stacks.",
+    ],
+  },
+  {
+    company: "CorePower Yoga",
+    role: "Systems Admin",
+    period: "Oct 2022 - Jan 2023",
+    location: "Charlotte, NC & Lakewood, CO",
+    bullets: [
+      "Updated product and scheduling databases while resolving internal support tickets in Confluence.",
+      "Overhauled product categorizations and supported updates for 12 franchise acquisitions.",
+    ],
+  },
+  {
+    company: "RealTimePOS",
+    role: "QA Analyst & Tech Support",
+    period: "Feb 2020 - Jul 2020",
+    location: "Charlotte, NC",
+    bullets: [
+      "Led testing for releases 2.4 and 3.0, covering all use cases and documenting reproducible issues.",
+      "Reported bugs with screenshots and steps to reproduce; resolved client support tickets using Jira.",
+    ],
+  },
+  {
+    company: "Additional Roles",
+    role: "Technical Lead, Tutor, Delivery & Service",
+    period: "2018 - 2024",
+    location: "Various | NC & CO",
+    bullets: [
+      "Technical Lead @ iCode (Jun-Sep 2022): guided students writing scripts for drones and robotic cars.",
+      "Math and test prep tutor (2018-2024): taught SAT/ACT prep and high school math for groups and individuals.",
+      "Delivery and hospitality roles (2020-2024): Uber Eats, DoorDash, Papa John's, and service work at TopGolf, Roy's Kitchen and Patio, Heist Brewery, and The Manchester.",
     ],
   },
 ];
 
 const projects = [
   {
-    title: "Meal Planner",
-    tagline: "Plan, prep, and nourish with confidence.",
-    description: "A robust meal-planning app for scheduling meals and tracking nutritional info for dishes.",
-    tools: ["TypeScript", "React", "Node.js", "Express", "PostgreSQL", "Tailwind CSS"],
-    github: "https://github.com/Wesleyelsew96/meal-planner",
+    title: "Machine Learning Coursework",
+    tagline: "Neural nets and classic models on real datasets.",
+    description:
+      "Built regression and classification models in Python, including a neural network on the Boston Housing dataset and logistic/Naive Bayes models on MNIST.",
+    tools: ["Python", "NumPy", "Pandas", "scikit-learn", "TensorFlow"],
+    github: null,
     live: null,
     highlights: [
-      "Built recipe + meal scheduling with drag-and-drop weekly views and grocery list exports.",
-      "Calculated nutrition macros from recipe ingredients and serving sizes for accurate tracking.",
-      "Added user preferences (dietary exclusions, macros) to personalize meal suggestions.",
+      "Implemented a regression neural network to predict Boston housing prices.",
+      "Trained logistic regression and Naive Bayes classifiers on MNIST handwriting data.",
+      "Evaluated accuracy and tuned features to improve performance.",
     ],
     screenshots: [
-      { alt: "Weekly meal plan with nutrition breakdown", src: "https://images.unsplash.com/photo-1481391032119-d89fee407e44?auto=format&fit=crop&w=1000&q=80" },
-      { alt: "Recipe detail and macros", src: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1000&q=80" },
+      {
+        alt: "Notebook view of housing price regression outputs",
+        src: "https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        alt: "Digit classification charts from MNIST experiments",
+        src: "https://images.unsplash.com/photo-1433832597046-4f10e10ac764?auto=format&fit=crop&w=1000&q=80",
+      },
     ],
   },
   {
-    title: "Lyrics Generator",
-    tagline: "AI-assisted songwriting for modern pop.",
-    description: "A model trained on pop songs that generates lyrics given a chord progression, a melody, and text input.",
-    tools: ["Python", "PyTorch", "FastAPI", "React", "TypeScript", "PostgreSQL"],
-    github: "https://github.com/Wesleyelsew96/lyrics-generator",
+    title: "Sports Analytics Prototypes",
+    tagline: "Fan experience and operations insights for Charlotte teams.",
+    description:
+      "Proposed analytics tools and UI prototypes for the Charlotte Hornets and Charlotte Knights, pairing Python research with React interfaces.",
+    tools: ["Python", "React", "JavaScript"],
+    github: null,
     live: null,
     highlights: [
-      "Fine-tuned a lyrics model with melody + chord conditioning to keep phrasing musical.",
-      "Built a FastAPI service with queueing for generation jobs and streaming status updates.",
-      "Shipped a React UI for prompting, previewing verses/choruses, and exporting drafts.",
+      "Built data exploration scripts to surface insights for team analytics departments.",
+      "Delivered React UI prototypes to demonstrate potential fan-facing experiences.",
+      "Presented proposals and prototypes directly to analytics stakeholders.",
     ],
     screenshots: [
-      { alt: "Lyrics generation prompt builder", src: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1000&q=80" },
-      { alt: "Generated lyrics arranged by section", src: "https://images.unsplash.com/photo-1454922915609-78549ad709bb?auto=format&fit=crop&w=1000&q=80" },
+      {
+        alt: "Analytics dashboard mock showing player metrics",
+        src: "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        alt: "Concept UI for presenting game-day insights",
+        src: "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1000&q=80",
+      },
     ],
   },
   {
-    title: "Charlotte Knights Stadium App",
-    tagline: "Game-day companion for food, tickets, and merch.",
-    description: "A companion app for stadium-goers attending Charlotte Knights baseball games to find and purchase food, tickets, and merch.",
-    tools: ["React Native", "TypeScript", "Expo", "Firebase", "Stripe", "Mapbox"],
-    github: "https://github.com/Wesleyelsew96/charlotte-knights-stadium-app",
+    title: "Colorcentric Puzzle Game",
+    tagline: "A 2D tile puzzle game inspired by 2048.",
+    description: "Designed and developed Colorcentric, a web-based puzzle game built with JavaScript, HTML, and CSS.",
+    tools: ["JavaScript", "HTML", "CSS"],
+    github: null,
     live: null,
     highlights: [
-      "Implemented in-seat ordering with pickup windows and live order status updates.",
-      "Mapped concessions, restrooms, and seating with indoor-friendly navigation cues.",
-      "Integrated ticket wallet, QR entry, and push notifications for promos and innings.",
+      "Crafted tile mechanics and progression to keep the puzzle engaging.",
+      "Designed UI/UX for quick play sessions with a responsive layout.",
+      "Documented gameplay rules and scoring for sharing with classmates.",
     ],
     screenshots: [
-      { alt: "Stadium map with vendors", src: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1000&q=80" },
-      { alt: "Order flow for concessions", src: "https://images.unsplash.com/photo-1433832597046-4f10e10ac764?auto=format&fit=crop&w=1000&q=80" },
+      {
+        alt: "Colorcentric puzzle board during play",
+        src: "https://images.unsplash.com/photo-1484417894907-623942c8ee29?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        alt: "Colorful tiles merging in the puzzle grid",
+        src: "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1000&q=80",
+      },
     ],
   },
   {
-    title: "Colorcentric",
-    tagline: "A vivid twist on the 2048-style puzzle.",
-    description: "A 2D tile puzzle game inspired by the popular iOS app 2048.",
-    tools: ["TypeScript", "React", "Vite", "Canvas", "Tailwind CSS"],
-    github: "https://github.com/Wesleyelsew96/colorcentric",
+    title: "Collatz Conjecture Research",
+    tagline: "Exploring iterative patterns in a base-2 abstract machine.",
+    description: "Analyzed the Collatz function in Java to study iterative patterns within a base-2 abstract machine.",
+    tools: ["Java", "Data Structures", "Algorithms"],
+    github: null,
     live: null,
     highlights: [
-      "Crafted smooth tile animations and color-driven combos that reward streaks.",
-      "Added daily challenge seeds, scoreboards, and persistent progress with local storage.",
-      "Balanced difficulty ramps with increasing tile tiers and limited undos.",
+      "Modeled Collatz iterations programmatically to observe emergent patterns.",
+      "Produced reports summarizing findings for faculty review.",
+      "Built reusable Java utilities to support future exploration.",
     ],
     screenshots: [
-      { alt: "Colorcentric gameplay board", src: "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1000&q=80" },
-      { alt: "Score summary and streaks", src: "https://images.unsplash.com/photo-1484417894907-623942c8ee29?auto=format&fit=crop&w=1000&q=80" },
+      {
+        alt: "Whiteboard notes showing iterative patterns",
+        src: "https://images.unsplash.com/photo-1484417894907-623942c8ee29?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        alt: "Abstract visualization of sequences in code",
+        src: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=80",
+      },
     ],
   },
 ];
@@ -220,27 +281,44 @@ const buildProjectCard = (project, index) => {
   detailsBtn.type = "button";
   detailsBtn.dataset.projectIndex = index;
   detailsBtn.textContent = "Details & Screenshots";
+  actions.appendChild(detailsBtn);
 
-  const codeLink = document.createElement("a");
-  codeLink.className = "button secondary";
-  codeLink.href = project.github;
-  codeLink.target = "_blank";
-  codeLink.rel = "noreferrer";
-  codeLink.textContent = "Code";
+  if (project.github) {
+    const codeLink = document.createElement("a");
+    codeLink.className = "button secondary";
+    codeLink.href = project.github;
+    codeLink.target = "_blank";
+    codeLink.rel = "noreferrer";
+    codeLink.textContent = "Code";
+    actions.appendChild(codeLink);
+  } else {
+    const codeRequest = document.createElement("button");
+    codeRequest.className = "button secondary";
+    codeRequest.type = "button";
+    codeRequest.setAttribute("aria-disabled", "true");
+    codeRequest.disabled = true;
+    codeRequest.textContent = "Code available on request";
+    actions.appendChild(codeRequest);
+  }
 
-  const liveBtn = document.createElement(project.live ? "a" : "button");
-  liveBtn.className = "button primary";
-  liveBtn.textContent = project.live ? "Live site" : "Live site (coming soon)";
   if (project.live) {
+    const liveBtn = document.createElement("a");
+    liveBtn.className = "button primary";
+    liveBtn.textContent = "Live site";
     liveBtn.href = project.live;
     liveBtn.target = "_blank";
     liveBtn.rel = "noreferrer";
+    actions.appendChild(liveBtn);
   } else {
-    liveBtn.setAttribute("aria-disabled", "true");
-    liveBtn.type = "button";
+    const livePlaceholder = document.createElement("button");
+    livePlaceholder.className = "button ghost";
+    livePlaceholder.type = "button";
+    livePlaceholder.setAttribute("aria-disabled", "true");
+    livePlaceholder.disabled = true;
+    livePlaceholder.textContent = "Live demo unavailable";
+    actions.appendChild(livePlaceholder);
   }
 
-  actions.append(detailsBtn, codeLink, liveBtn);
   card.append(title, desc, chips, actions);
   return card;
 };
@@ -257,9 +335,10 @@ const openModal = (project) => {
   modalTitle.textContent = project.title;
   modalDescription.textContent = project.description;
   modalTagline.textContent = project.tagline;
+
   modalHighlights.innerHTML = "";
   modalHighlights.append(
-    ...project.highlights.map((item) => {
+    ...(project.highlights || []).map((item) => {
       const li = document.createElement("li");
       li.textContent = item;
       return li;
@@ -270,7 +349,7 @@ const openModal = (project) => {
   modalTools.appendChild(renderChips(project.tools));
 
   modalScreens.innerHTML = "";
-  project.screenshots.forEach((shot) => {
+  (project.screenshots || []).forEach((shot) => {
     const fig = document.createElement("figure");
     fig.className = "screenshot";
     const img = document.createElement("img");
@@ -281,26 +360,32 @@ const openModal = (project) => {
   });
 
   modalLinks.innerHTML = "";
-  const code = document.createElement("a");
-  code.className = "button secondary";
-  code.href = project.github;
-  code.target = "_blank";
-  code.rel = "noreferrer";
-  code.textContent = "Code";
-  modalLinks.appendChild(code);
+  if (project.github) {
+    const code = document.createElement("a");
+    code.className = "button secondary";
+    code.href = project.github;
+    code.target = "_blank";
+    code.rel = "noreferrer";
+    code.textContent = "Code";
+    modalLinks.appendChild(code);
+  }
 
-  const live = document.createElement(project.live ? "a" : "button");
-  live.className = "button primary";
-  live.textContent = project.live ? "Live site" : "Live site (coming soon)";
   if (project.live) {
+    const live = document.createElement("a");
+    live.className = "button primary";
+    live.textContent = "Live site";
     live.href = project.live;
     live.target = "_blank";
     live.rel = "noreferrer";
-  } else {
-    live.setAttribute("aria-disabled", "true");
-    live.type = "button";
+    modalLinks.appendChild(live);
   }
-  modalLinks.appendChild(live);
+
+  if (!project.github && !project.live) {
+    const note = document.createElement("p");
+    note.className = "muted";
+    note.textContent = "Code and demos available on request.";
+    modalLinks.appendChild(note);
+  }
 
   modal.dataset.open = "true";
   modal.setAttribute("aria-hidden", "false");
@@ -346,10 +431,12 @@ const renderProfile = () => {
   const profileList = document.getElementById("profile-list");
   if (!profileList) return;
   const entries = [
-    `${profile.location}`,
+    profile.location,
+    `Phone: ${profile.phone}`,
+    `Email: ${profile.email}`,
     profile.bio,
-    "Focusing on SaaS, dashboards, operations, and commerce.",
-    "Interested in full-time roles and select freelance engagements.",
+    "Comfortable across ML modeling, full-stack delivery, DevOps, QA, and client-facing collaboration.",
+    "Open to data annotation, ML, and software engineering opportunities.",
   ];
   renderList("profile-list", entries);
 };
@@ -361,7 +448,9 @@ const renderEducation = () => {
   education.forEach((item) => {
     const li = document.createElement("li");
     const title = document.createElement("div");
-    title.innerHTML = `<strong>${item.school}</strong> — ${item.program}`;
+    const strong = document.createElement("strong");
+    strong.textContent = item.school;
+    title.append(strong, document.createTextNode(` - ${item.program}`));
     const note = document.createElement("p");
     note.className = "muted";
     note.textContent = item.note;
@@ -399,7 +488,7 @@ const renderWork = () => {
     card.className = "work-card";
     const period = document.createElement("div");
     period.className = "period";
-    period.textContent = `${job.period} · ${job.location}`;
+    period.textContent = `${job.period} - ${job.location}`;
     const role = document.createElement("div");
     role.className = "role";
     role.textContent = `${job.role} @ ${job.company}`;
