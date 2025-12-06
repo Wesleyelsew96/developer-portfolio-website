@@ -1,0 +1,120 @@
+Colorcentric Patch Notes:
+
+-------------------------
+
+Alpha-1:
+
+GAME RELEASED
+
+-------------------------
+
+Alpha-2:
+
+UPDATES
+* Added in the Best Score feature
+* Increased the space between the game and the rules
+
+FIXES
+* Fixed the score so that it resets when "New Game" is clicked
+
+-------------------------
+
+Alpha-3:
+
+UPDATES
+* Player can no longer make a move that wouldn't move any tiles
+
+FIXES
+* The center tile now correctly becomes the indicated tile on top, so you can plan your moves accordingly
+* Fixed a bug that caused colors that were already achieved to no longer appear at the top
+
+-------------------------
+
+Alpha-4:
+
+UPDATES
+* Make the tile that spawns be different than the previous tile
+* Version is shown in the bottom 
+
+FIXES
+
+-------------------------
+
+Alpha-5:
+
+UPDATES
+* When the game ends, a screen appears that prompts the user to restart
+* When you clear a "double", or two of the same color at once, ALL of the tiles of that color will also clear
+
+FIXES
+
+-------------------------
+
+Beta-1:
+
+UPDATES
+* A border is now shown around each corner tile
+* The colors were given a makeover
+* The future tile display is improved, and is labeled "Next tile"
+* The "Game Over" screen is improved
+* Added sounds
+* Added sound toggle button
+* Added a trademark for the title
+* Updated the game information below the game
+
+FIXES
+* Removed a bug where you could lose with 1 corner left open
+* Fixed an issue where playing too fast caused invisible tiles to appear
+* Fixed an issue where playing too fast allows tiles to glitch through the center
+* Animations no longer "pile up" when playing too quickly
+
+-------------------------
+
+Beta-1.1:
+
+FIXES
+* Fixed a bug where you could lose with one tile left (For real this time?)
+
+-------------------------
+
+
+Beta-1.2:
+
+UPDATES
+* Your best score will no longer reset when you refresh the page
+
+FIXES
+* Fixed a bug where the center tile could disappear
+
+-------------------------
+
+Beta-2:
+
+UPDATES
+* Now fits in a mobile screen (Full mobile support coming soon!)
+
+FIXES
+* Fixed a bug where the center tile would not change fast enough, allowing more tiles to be cleared
+
+-------------------------
+
+Beta-3
+
+UPDATES
+* Mobile support!
+
+-------------------------
+
+Beta-3.1:
+
+FIXED
+* Fixed a bug where the swiping was enabled on the entire page instead of just the game
+
+-------------------------
+
+Beta-3.2:
+
+UPDATES
+* Cleaned up the UI information for mobile and desktop versions
+
+-------------------------

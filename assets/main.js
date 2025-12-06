@@ -158,8 +158,8 @@ const projects = [
     tagline: "A 2D tile puzzle game inspired by 2048.",
     description: "Designed and developed Colorcentric, a web-based puzzle game built with JavaScript, HTML, and CSS.",
     tools: ["JavaScript", "HTML", "CSS"],
-    github: null,
-    live: null,
+    github: "https://github.com/Wesleyelsew96/Colorcentric",
+    live: "/colorcentric/",
     highlights: [
       "Crafted tile mechanics and progression to keep the puzzle engaging.",
       "Designed UI/UX for quick play sessions with a responsive layout.",
