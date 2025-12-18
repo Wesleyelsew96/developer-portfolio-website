@@ -106,6 +106,52 @@ const workHistory = [
 
 const projects = [
   {
+    title: "Lyrics Generator",
+    tagline: "TODO: Add a concise tagline for the lyrics generator.",
+    description: "Placeholder description - update with what the lyrics generator does, key inputs, and who it serves.",
+    tools: ["Update tech stack"],
+    github: "https://github.com/Wesleyelsew96/lyrics-generator",
+    live: "https://wesleyelsew96.github.io/lyrics-generator/",
+    highlights: [
+      "TODO: Add a highlight about the model approach or dataset.",
+      "TODO: Add a highlight about the input parameters and UX.",
+      "TODO: Add a highlight about output quality or metrics.",
+    ],
+    screenshots: [
+      {
+        alt: "Placeholder UI for a lyrics generator",
+        src: "https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        alt: "Placeholder creative writing concept art",
+        src: "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1000&q=80",
+      },
+    ],
+  },
+  {
+    title: "Extract Drums",
+    tagline: "TODO: Add a concise tagline for the drum extraction tool.",
+    description: "Placeholder description - update with how drum stems are processed and the current status.",
+    tools: ["Update tech stack"],
+    github: "https://github.com/Wesleyelsew96/extract-drums",
+    live: "https://wesleyelsew96.github.io/extract-drums/",
+    highlights: [
+      "TODO: Add a highlight about the separation technique or library.",
+      "TODO: Add a highlight about the upload/processing pipeline.",
+      "TODO: Add a highlight about roadmap or evaluation.",
+    ],
+    screenshots: [
+      {
+        alt: "Placeholder audio editing visual",
+        src: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1000&q=80",
+      },
+      {
+        alt: "Placeholder waveform visualization",
+        src: "https://images.unsplash.com/photo-1461783436728-0a9217714695?auto=format&fit=crop&w=1000&q=80",
+      },
+    ],
+  },
+  {
     title: "Machine Learning Coursework",
     tagline: "Neural nets and classic models on real datasets.",
     description:
