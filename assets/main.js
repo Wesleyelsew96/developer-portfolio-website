@@ -158,7 +158,7 @@ const projects = [
       "A deterministic meal-planning engine that cycles dishes by meal type, exposed via a browser UI and CLI for households to plan breakfasts, lunches, and dinners.",
     tools: ["Node.js", "Express", "JavaScript", "HTML/CSS", "Jest"],
     github: "https://github.com/Wesleyelsew96/meal-planner-ai",
-    live: null,
+    live: "https://wesleyelsew96.github.io/meal-planner-ai/demo/",
     highlights: [
       "DFS-based planner rotates dishes per meal type and date so schedules stay predictable.",
       "Shared engine powers both a web UI and CLI, keeping parity across flows.",
