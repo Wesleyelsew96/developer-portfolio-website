@@ -176,30 +176,6 @@ const projects = [
     ],
   },
   {
-    title: "Sports Analytics Prototypes",
-    tagline: "Fan experience and operations insights for Charlotte teams.",
-    description:
-      "Proposed analytics tools and UI prototypes for the Charlotte Hornets and Charlotte Knights, pairing Python research with React interfaces.",
-    tools: ["Python", "React", "JavaScript"],
-    github: null,
-    live: null,
-    highlights: [
-      "Built data exploration scripts to surface insights for team analytics departments.",
-      "Delivered React UI prototypes to demonstrate potential fan-facing experiences.",
-      "Presented proposals and prototypes directly to analytics stakeholders.",
-    ],
-    screenshots: [
-      {
-        alt: "Analytics dashboard mock showing player metrics",
-        src: "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1000&q=80",
-      },
-      {
-        alt: "Concept UI for presenting game-day insights",
-        src: "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1000&q=80",
-      },
-    ],
-  },
-  {
     title: "Colorcentric Puzzle Game",
     tagline: "A 2D tile puzzle game inspired by 2048.",
     description: "Designed and developed Colorcentric, a web-based puzzle game built with JavaScript, HTML, and CSS.",
